@@ -17,7 +17,7 @@ function start(){
 	database.ref().once('value', function(snapshot) {
 		snapshot.forEach(function(childSnapshot) {
 			snap = childSnapshot.val();
-			list.push(snap);	
+			list.push(snap);
 
 	    });
 	});
@@ -42,26 +42,31 @@ function show(){
 		first = list[i].First_Name;
 		last = list[i].Last_Name;
 		age = list[i].Age;
-		zip = list[i].Zipcode;
+	        zip = list[i].Zipcode;
+                device = list[i].Device
+
 		z = document.createElement('tr');
 
    		a = document.createElement('td');
    		b = document.createElement('td');
    		c = document.createElement('td');
-   		d = document.createElement('td');
+   	        d = document.createElement('td');
+                e = document.createElement('td');
 
    		a.innerHTML = first;
    		b.innerHTML = last;
    		c.innerHTML = age;
    		d.innerHTML = zip;
+                e.innerHTML = device;
 
    		z.appendChild(a);
    		z.appendChild(b);
    		z.appendChild(c);
-   		z.appendChild(d);
+   	        z.appendChild(d);
+                z.appendChild(e);
 
    		document.getElementById('here').appendChild(z);
-	}   
+	}
 	document.getElementById('show').remove();
 
 }
@@ -76,10 +81,9 @@ function submit(){
 	zip = form.elements[3].value;
 
 
-	createNewUser(first, last, age, device, zip);
+        createNewUser(first, last, age, device, zip, device);
 	document.getElementById('form').remove();
 
 	location.reload();
 
 }
-
