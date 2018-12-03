@@ -11,8 +11,8 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
-
 var list = [];
+
 function start(){
     database.ref().once('value', function(snapshot) {
 	snapshot.forEach(function(childSnapshot) {
@@ -22,7 +22,9 @@ function start(){
 	});
     });
 }
+
 start();
+
 function createNewUser(first, last, age, device, zip){
     firebase.database().ref(list.length + 1).set({
 	Age: age,
@@ -32,7 +34,6 @@ function createNewUser(first, last, age, device, zip){
 	Zipcode: zip
     });
 }
-
 
 function show(){
     list.sort(function(a, b){
@@ -68,7 +69,6 @@ function show(){
    	document.getElementById('here').appendChild(z);
     }
     document.getElementById('show').remove();
-
 }
 
 function submit(){
@@ -85,5 +85,4 @@ function submit(){
     document.getElementById('form').remove();
 
     location.reload();
-
 }

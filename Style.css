@@ -4,8 +4,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #7f8c8d;
     background-color: #fefefe;
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
 }
 
 table {
@@ -20,6 +23,27 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+}
+
+form {
+    color: #B22222;
+
+}
+
+#title {
+    font-size: 2em;
+}
+
+#header {
+    text-align: center;
+    color: #B22222;
+    line-height: 20px;
+}
+
+#subtext {
+    text-align: center;
+    color: #CD5C5C;
+    line-height: 20px;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
