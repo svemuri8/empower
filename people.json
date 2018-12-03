@@ -1,0 +1,233 @@
+[
+ {
+   "First_Name": "Trump",
+   "Last_Name": "Solanki",
+   "Zipcode": "",
+   "Age": 32,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 5,
+   "Contact": "",
+   "Survivability": 48
+ },
+ {
+   "First_Name": "Phil",
+   "Last_Name": "Rathore",
+   "Zipcode": "",
+   "Age": 93,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 7,
+   "Contact": "",
+   "Survivability": -33
+ },
+ {
+   "First_Name": "Clinton",
+   "Last_Name": "Singh",
+   "Zipcode": "",
+   "Age": 22,
+   "Device": "Oxygen Machine",
+   "Device Priority": 2,
+   "Medical condition severity": 2,
+   "Contact": "",
+   "Survivability": 72
+ },
+ {
+   "First_Name": "Mahesh",
+   "Last_Name": "Trivedi",
+   "Zipcode": "",
+   "Age": 45,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 4,
+   "Contact": "",
+   "Survivability": -5
+ },
+ {
+   "First_Name": "Bob",
+   "Last_Name": "Rodriguez",
+   "Zipcode": "",
+   "Age": 73,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 8,
+   "Contact": "",
+   "Survivability": -73
+ },
+ {
+   "First_Name": "Monica",
+   "Last_Name": "Hughes",
+   "Zipcode": "",
+   "Age": 68,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 6,
+   "Contact": "",
+   "Survivability": -48
+ },
+ {
+   "First_Name": "Reema",
+   "Last_Name": "Burdell",
+   "Zipcode": "",
+   "Age": 22,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 4,
+   "Contact": "",
+   "Survivability": 2
+ },
+ {
+   "First_Name": "Pritesh",
+   "Last_Name": "Milton",
+   "Zipcode": "",
+   "Age": 25,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 4,
+   "Contact": "",
+   "Survivability": 55
+ },
+ {
+   "First_Name": "Geeta",
+   "Last_Name": "Katyayani",
+   "Zipcode": "",
+   "Age": 18,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 1,
+   "Contact": "",
+   "Survivability": 28
+ },
+ {
+   "First_Name": "Modi",
+   "Last_Name": "Butch",
+   "Zipcode": "",
+   "Age": 81,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 5,
+   "Contact": "",
+   "Survivability": -51
+ },
+ {
+   "First_Name": "Ed",
+   "Last_Name": "Modi",
+   "Zipcode": "",
+   "Age": 51,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 5,
+   "Contact": "",
+   "Survivability": -21
+ },
+ {
+   "First_Name": "Vat",
+   "Last_Name": "Trivedi",
+   "Zipcode": "",
+   "Age": 62,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 1,
+   "Contact": "",
+   "Survivability": 58
+ },
+ {
+   "First_Name": "Ri",
+   "Last_Name": "Yehua",
+   "Zipcode": "",
+   "Age": 35,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 1,
+   "Contact": "",
+   "Survivability": 85
+ },
+ {
+   "First_Name": "Venkatalakshmi",
+   "Last_Name": "Ramyamani",
+   "Zipcode": "",
+   "Age": 84,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 4,
+   "Contact": "",
+   "Survivability": 6
+ },
+ {
+   "First_Name": "Rama",
+   "Last_Name": "Bhagyadevi",
+   "Zipcode": "",
+   "Age": 22,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 1,
+   "Contact": "",
+   "Survivability": 32
+ },
+ {
+   "First_Name": "Mat",
+   "Last_Name": "Patrick",
+   "Zipcode": "",
+   "Age": 70,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 7,
+   "Contact": "",
+   "Survivability": -10
+ },
+ {
+   "First_Name": "Hillary",
+   "Last_Name": "Haleli",
+   "Zipcode": "",
+   "Age": 26,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 2,
+   "Contact": "",
+   "Survivability": 26
+ },
+ {
+   "First_Name": "Jos",
+   "Last_Name": "Jos",
+   "Zipcode": "",
+   "Age": 90,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 9,
+   "Contact": "",
+   "Survivability": -50
+ },
+ {
+   "First_Name": "Champa",
+   "Last_Name": "Tara",
+   "Zipcode": "",
+   "Age": 7,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 3,
+   "Contact": "",
+   "Survivability": -3
+ },
+ {
+   "First_Name": "Seema",
+   "Last_Name": "Paar",
+   "Zipcode": "",
+   "Age": 94,
+   "Device": "Dialysis",
+   "Device Priority": 2,
+   "Medical condition severity": 5,
+   "Contact": "",
+   "Survivability": -14
+ },
+ {
+   "First_Name": "Ramesh",
+   "Last_Name": "Baiqian",
+   "Zipcode": "",
+   "Age": 14,
+   "Device": "Ventilator",
+   "Device Priority": 1,
+   "Medical condition severity": 8,
+   "Contact": "",
+   "Survivability": -46
+ }
+]
