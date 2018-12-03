@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
-	<script src="index.js"></script>
-	<title>EmPower</title>
-	<style type="text/css">
-		table {
-		    border-collapse: collapse;
-		    border-spacing: 0;
-		    right: 0;
-		    position: absolute;
-		    width: 50%;
-		    border: 1px solid #ddd;
-		}
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script src="index.js"></script>
+    <title>EmPower</title>
+    <style type="text/css">
+      table {
+	  border-collapse: collapse;
+	  border-spacing: 0;
+	  right: 0;
+	  position: absolute;
+	  width: 50%;
+	  border: 1px solid #ddd;
+      }
 
-		th, td {
-		    text-align: left;
-		    padding: 8px;
-		}
+      th, td {
+	  text-align: left;
+	  padding: 8px;
+      }
 
-tr:nth-child(even){background-color: #f2f2f2}
-	</style>
-</head>
-<body>
-	<table id="here">
-	  <th>First Name</th>
+      tr:nth-child(even){background-color: #f2f2f2}
+    </style>
+  </head>
+  <body>
+    <table id="here">
+      <th>First Name</th>
       <th>Last Name</th>
       <th>Age</th>
       <th>ZIP</th>
       <th>Device</th>
-	</table>
+    </table>
 
-	<form id="form">
-	  First name:<br>
-	  <input type="text" id="first"><br>
-	  Last name:<br>
-	  <input type="text" id="last"><br>
-	   Age:<br>
-	  <input type="text" id="age"><br>
-	   ZIP:<br>
-	  <input type="text" id="zip"><br>
-	   Device:<br>
-	  <input list="browsers" id="device">
-		  <datalist id="browsers">
-		    <option value="Ventilator">
-		    <option value="Heart Pump">
-		    <option value="Hemodialysis">
-		  </datalist>
+    <form id="form">
+      First name:<br>
+      <input type="text" id="first"><br>
+      Last name:<br>
+      <input type="text" id="last"><br>
+      Age:<br>
+      <input type="text" id="age"><br>
+      ZIP:<br>
+      <input type="text" id="zip"><br>
+      Device:<br>
+      <input list="browsers" id="device">
+      <datalist id="browsers">
+	<option value="Ventilator">
+	<option value="Heart Pump">
+	<option value="Hemodialysis">
+      </datalist>
 
 
-	</form>
+    </form>
 
-	  	<button onclick="submit();">SUBMIT</button>
+    <button onclick="submit();">SUBMIT</button>
 
-	<button onclick="show();" id = 'show'>SHOW</button>
+    <button onclick="show();" id = 'show'>SHOW</button>
 
-</body>
+  </body>
 </html>
