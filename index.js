@@ -24,7 +24,7 @@ function start(){
 }
 start();
 function createNewUser(first, last, age, device, zip){
-	  firebase.database().ref(list.length).set({
+	  firebase.database().ref(list.length + 1).set({
 	    Age: age,
 	    First_Name: first,
 	    Last_Name: last,
