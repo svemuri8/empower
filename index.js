@@ -191,7 +191,10 @@ function findPeople(){
 
 
     for (var i = list.length - 1; i >= 0; i--) {
+    	    a = form.elements[0].value;
+
     	if (a == list[i].Zipcode){
+    		console.log('Found');
 	    	first = list[i].First_Name;
 			last = list[i].Last_Name;
 			age = list[i].Age;
