@@ -60,12 +60,12 @@ function show(){
    	a = document.createElement('td');
    	b = document.createElement('td');
    	c = document.createElement('td');
-   	d = document.createElement('td');
-        e = document.createElement('td');
-        f = document.createElement('td');
-        g = document.createElement('td');
-        h = document.createElement('td');
-        j = document.createElement('td');
+   	d = document.createElement('td');	
+    e = document.createElement('td');
+    f = document.createElement('td');
+    g = document.createElement('td');
+    h = document.createElement('td');
+    j = document.createElement('td');
 
    	a.innerHTML = first;
    	b.innerHTML = last;
@@ -80,12 +80,12 @@ function show(){
    	z.appendChild(a);
    	z.appendChild(b);
    	z.appendChild(c);
-   	z.appendChild(d);
-        z.appendChild(e);
-        z.appendChild(f);
-        z.appendChild(g);
-        z.appendChild(h);
-        z.appendChild(j);
+	z.appendChild(d);
+    z.appendChild(e);
+    z.appendChild(f);
+    z.appendChild(g);
+    z.appendChild(h);
+    z.appendChild(j);
 
    	document.getElementById('here').appendChild(z);
     }
@@ -187,7 +187,8 @@ function sortTable(n) {
 function findPeople(){
 	form = document.getElementById('form1');
     a = form.elements[0].value;
-    document.getElementById('here').innerHTML = ''
+    document.getElementById('here').innerHTML = '';
+    document.getElementById('seeDatabse').onclick = 'location.reload()';
 
 
     for (var i = list.length - 1; i >= 0; i--) {
