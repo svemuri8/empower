@@ -31,7 +31,8 @@ function createNewUser(first, last, age, device, zip){
 	First_Name: first,
 	Last_Name: last,
 	Device: device,
-	Zipcode: zip
+	Zipcode: zip,
+        Survivability: survivability
     });
 }
 
@@ -45,6 +46,7 @@ function show(){
 	age = list[i].Age;
 	zip = list[i].Zipcode;
         device = list[i].Device
+        survivability = list[i].Survivability;
 
 	z = document.createElement('tr');
 
@@ -53,18 +55,21 @@ function show(){
    	c = document.createElement('td');
    	d = document.createElement('td');
         e = document.createElement('td');
+        f = document.createElement('td');
 
    	a.innerHTML = first;
    	b.innerHTML = last;
    	c.innerHTML = age;
    	d.innerHTML = zip;
         e.innerHTML = device;
+        f.innerHTML = survivability;
 
    	z.appendChild(a);
    	z.appendChild(b);
    	z.appendChild(c);
    	z.appendChild(d);
         z.appendChild(e);
+        z.appendChild(f);
 
    	document.getElementById('here').appendChild(z);
     }
@@ -79,9 +84,10 @@ function submit(){
     age = form.elements[2].value;
     device = form.elements[4].value;
     zip = form.elements[3].value;
+    survivability = form.elements[5];
 
 
-    createNewUser(first, last, age, device, zip, device);
+    createNewUser(first, last, age, device, zip, device, survivability);
     document.getElementById('form').remove();
 
     location.reload();
