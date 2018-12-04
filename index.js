@@ -103,7 +103,8 @@ function submit(){
     contact = form.elements[5].value;
     severity = form.elements[6].value;
     priority = form.elements[7].value;
-    survivability = form.elements[8].value;
+    survivability = 70 - (priority*6 + severity*2 +
+                          Math.abs(30 - age));
 
     createNewUser(first, last, age, device, zip, contact,
                   severity, priority, survivability);
