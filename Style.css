@@ -92,3 +92,11 @@ tr:nth-child(even){background-color: #FFB19A}
 .hide{
     display: none;
 }
+
+th{
+
+}
+
+th:hover{
+    text-decoration:underline;
+}
