@@ -11,11 +11,14 @@ h1 {
     font-family: 'Slabo 27px', serif;
 }
 
+h2 {
+    font-family: 'Slabo 16px', serif;
+}
+
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    right: 0;
-    position: absolute;
+    color: #B22222;
+    position: relative;
+    margin: auto;
     width: 50%;
     border: 1px solid #ddd;
 }
@@ -26,8 +29,38 @@ th, td {
 }
 
 form {
+    margin: auto;
     color: #B22222;
+    width: 50%;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #FFB19A;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+input {
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    color: #FFFFFF;
+    padding: 8px 18px;
+    border: none;
+    font-size: 16px;
+    background-color: #B22222;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 #title {
@@ -40,10 +73,17 @@ form {
     line-height: 20px;
 }
 
+#formheader, #tableheader {
+    text-align: center;
+    color: #CD5C5C;
+    line-height: 10px;
+}
+
 #subtext {
     text-align: center;
     color: #CD5C5C;
     line-height: 20px;
+    margin-bottom: 90px;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: #FFB19A}
