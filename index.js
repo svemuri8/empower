@@ -25,13 +25,17 @@ function start(){
 
 start();
 
-function createNewUser(first, last, age, device, zip){
+function createNewUser(first, last, age, device, zip, contact,
+                       severity, priority, survivability){
     firebase.database().ref(list.length + 1).set({
 	Age: age,
 	First_Name: first,
 	Last_Name: last,
 	Device: device,
 	Zipcode: zip,
+        Contact: contact,
+        Condition_Severity: severity,
+        Device_Priority: priority,
         Survivability: survivability
     });
 }
@@ -45,7 +49,10 @@ function show(){
 	last = list[i].Last_Name;
 	age = list[i].Age;
 	zip = list[i].Zipcode;
-        device = list[i].Device
+        device = list[i].Device;
+        contact = list[i].Contact;
+        severity = list[i].Condition_Severity;
+        priority = list[i].Device_Priority;
         survivability = list[i].Survivability;
 
 	z = document.createElement('tr');
@@ -56,13 +63,19 @@ function show(){
    	d = document.createElement('td');
         e = document.createElement('td');
         f = document.createElement('td');
+        g = document.createElement('td');
+        h = document.createElement('td');
+        j = document.createElement('td');
 
    	a.innerHTML = first;
    	b.innerHTML = last;
    	c.innerHTML = age;
    	d.innerHTML = zip;
         e.innerHTML = device;
-        f.innerHTML = survivability;
+        f.innerHTML = contact;
+        g.innerHTML = severity;
+        h.innerHTML = priority;
+        j.innerHTML = survivability;
 
    	z.appendChild(a);
    	z.appendChild(b);
@@ -70,6 +83,9 @@ function show(){
    	z.appendChild(d);
         z.appendChild(e);
         z.appendChild(f);
+        z.appendChild(g);
+        z.appendChild(h);
+        z.appendChild(j);
 
    	document.getElementById('here').appendChild(z);
     }
@@ -84,10 +100,14 @@ function submit(){
     age = form.elements[2].value;
     device = form.elements[4].value;
     zip = form.elements[3].value;
-    survivability = form.elements[5];
+    contact = form.elements[5].value;
+    severity = form.elements[6].value;
+    priority = form.elements[7].value;
+    survivability = form.elements[8].value;
 
+    createNewUser(first, last, age, device, zip, contact,
+                  severity, priority, survivability);
 
-    createNewUser(first, last, age, device, zip, device, survivability);
     document.getElementById('form').remove();
 
     location.reload();
