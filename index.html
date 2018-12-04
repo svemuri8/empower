@@ -49,6 +49,11 @@
 
 <div id="users" class="hide">
     <button onclick="show();" id = 'show'>Show</button>
+    <form id="form1">
+    	Simulate a power outage. Enter the ZIP code:<br>
+      <input type="text"><br>
+    </form>
+    <button onclick="findPeople()">Find People</button>
 
 
     <h2 id="tableheader">Patient Database</h2>
@@ -63,6 +68,7 @@
       <th onclick="sortTable(6)">Severity</th>
       <th onclick="sortTable(7)">Device Priority</th>
       <th onclick="sortTable(8)">Survivability</th>
+
     </table>
 
 </div>
