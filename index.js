@@ -38,7 +38,7 @@ function createNewUser(first, last, age, device, zip){
 
 function show(){
     list.sort(function(a, b){
-	return a.Age - b.Age;
+	return a.Zipcode - b.Zipcode;
     });
     for (var i = 0; i <= list.length-1; i++) {
 	first = list[i].First_Name;
@@ -91,4 +91,18 @@ function submit(){
     document.getElementById('form').remove();
 
     location.reload();
+}
+
+
+function user(){
+	document.getElementById('users').classList = 'hide';
+	document.getElementById('newPatient').classList = '';
+
+}
+
+
+function newPatient(){
+	document.getElementById('users').classList = '';
+	document.getElementById('newPatient').classList = 'hide';
+
 }
