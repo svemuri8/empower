@@ -188,7 +188,7 @@ function findPeople(){
 	form = document.getElementById('form1');
     a = form.elements[0].value;
     document.getElementById('here').innerHTML = '';
-    document.getElementById('seeDatabse').onclick = 'location.reload()';
+    document.getElementById('seeDatabase').onclick = 'location.reload()';
 
 
     for (var i = list.length - 1; i >= 0; i--) {
